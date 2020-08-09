@@ -5,11 +5,11 @@ body {font-family: sans-serif;background-color: black;}
 .container {}
 
 /* logo */
-.logo-wrap {width: 100%;display: flex;justify-content: center;margin-top: 20px;}
+.logo-wrap {width: 100%;display: flex;justify-content: center;margin-top: 15px;}
 
-.logo {width: 20%;}
+.logo {width: 60%;}
 
-.logo-wrap img {width: 100%;filter: drop-shadow(2px 2px 1px white);}
+.logo-wrap img {width: 100%;}
 
 /* background-img */
 .background-img {background-size: cover;background-repeat: no-repeat;position: fixed;top: 0;left: 0;z-index: -1;
@@ -30,15 +30,15 @@ background-image: url(img/unknown.png);filter: grayscale(100%);}
 
 .wrap-redes-img .face span {background-image: url(iconos/facebook-10.png);
 background-position: 0 0;background-repeat: no-repeat;background-size: cover; width: 100px; height: 100px; display: inline;
-position: relative;float: left; margin: 0 5px;}
+position: relative;float: left; margin: 0 10px;}
 
 .wrap-redes-img .inst span {background-image: url(iconos/instagram-10.png);
 background-position: 0 0;background-repeat: no-repeat;background-size: cover;width: 100px; height: 100px; display: inline;
-position: relative;float: left;margin: 0 5px;}
+position: relative;float: left;margin: 0 10px;}
 
 .wrap-redes-img .you span {background-image: url(iconos/youtube-5.png);
 background-position: 0 0;background-repeat: no-repeat;background-size: cover;width: 100px; height: 100px; display: inline;
-position: relative;float: left;margin: 0 5px;}
+position: relative;float: left;margin: 0 10px;}
 
 @media screen and (max-width:375px) {
     .background-img {
@@ -49,7 +49,10 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
+    }
+    .logo-wrap {
+        margin-top: 35px;
     }
     .wrap-redes-img {
         bottom: 40vh;
@@ -68,7 +71,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 30vh;
@@ -87,7 +90,10 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
+    }
+    .logo-wrap {
+        margin-top: 20px;
     }
     .wrap-redes-img {
         bottom: 20vh;
@@ -106,7 +112,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 42vh;
@@ -122,10 +128,10 @@ position: relative;float: left;margin: 0 5px;}
         background-size: cover;
         width:100%;
         height: 700px;
-        
+
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 25vh;
@@ -144,7 +150,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 42vh;
@@ -163,7 +169,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 35%;
+        width: 60%;
     }
     .wrap-redes-img {
         bottom: 65vh;
@@ -201,7 +207,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 20vh;
@@ -258,7 +264,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 15vh;
@@ -277,7 +283,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 32vh;
@@ -296,7 +302,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 45%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 48vh;
@@ -315,7 +321,7 @@ position: relative;float: left;margin: 0 5px;}
         
     }
     .logo {
-        width: 55%;
+        width: 100%;
     }
     .wrap-redes-img {
         bottom: 42vh;
@@ -343,3 +349,26 @@ position: relative;float: left;margin: 0 5px;}
         opacity: 1;
     }
 }
+
+@media screen and (width:384px) {
+    .background-img {
+        background-position: center 25px;
+        background-size: cover;
+        width:100%;
+        height: 700px;
+        
+    }
+    .logo {
+        width: 100%;
+    }
+    .logo-wrap {
+        margin-top: 0px;
+    }
+    .wrap-redes-img {
+        bottom: 30vh;
+    }
+    .wrap-redes-img a {
+        opacity: 1;
+    }
+}
+
