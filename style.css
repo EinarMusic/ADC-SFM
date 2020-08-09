@@ -23,7 +23,7 @@ background-image: url(img/unknown.png);filter: grayscale(100%);}
 
 .nav {}
 
-.wrap-redes-img {text-align: center;position: absolute;width: 100%;bottom: 30vh;z-index: 2;}
+.wrap-redes-img {text-align: center;position: absolute;width: 100%;bottom: 25vh;z-index: 2;}
 
 .wrap-redes-img a {opacity: 1;transition: all .3s ease-out;-webkit-transition: all .3s ease;display: inline-block;}
 .wrap-redes-img a:hover {opacity: .7;}
